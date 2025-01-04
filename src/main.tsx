@@ -10,7 +10,7 @@ import routes from "./routes/route.tsx";
 
 createRoot(document.getElementById("root")!).render(
   <StrictMode>
-    <ThemeProvider>
+    <ThemeProvider >
       <Provider store={store}>
         <RouterProvider router={routes}></RouterProvider>
       </Provider>

@@ -3,7 +3,7 @@ import { ModeToggle } from "../mode-toggle";
 
 export default function Navbar() {
   return (
-    <nav className="flex gap-5 items-center">
+    <nav className="flex gap-5 items-center ">
       <div>
         <h1 className="text-4xl font-semibold">Task Manager</h1>
       </div>

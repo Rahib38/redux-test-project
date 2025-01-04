@@ -20,7 +20,7 @@ function App() {
   // };
   return (
     <>
-      <div>
+      <div className="container mx-auto">
         <Navbar></Navbar>
         <Outlet></Outlet>
         {/* <h1>Counter with Redux</h1>
