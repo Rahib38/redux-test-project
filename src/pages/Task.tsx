@@ -16,7 +16,7 @@ export default function Task() {
       </div>
       <div className="gap-4 space-y-4">
         {tasks.map((task) => (
-          <TaskCard task={task}></TaskCard>
+          <TaskCard task={task} key={task.id}></TaskCard>
         ))}
       </div>
     </div>
